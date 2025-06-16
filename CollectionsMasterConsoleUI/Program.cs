@@ -36,8 +36,14 @@ namespace CollectionsMasterConsoleUI
             */
             
             Array.Reverse(numbers);
-
+            
+            NumberPrinter(numbers);
+            
+            ReverseArray(numbers);
+            
             Console.WriteLine("All Numbers Reversed:");
+            
+            NumberPrinter(numbers);
 
             Console.WriteLine("---------REVERSE CUSTOM------------");
 
@@ -122,6 +128,7 @@ namespace CollectionsMasterConsoleUI
 
             //TODO: Clear the list
             numbersList.Clear();
+            NumberPrinter(numbersList);
             
 
             #endregion
